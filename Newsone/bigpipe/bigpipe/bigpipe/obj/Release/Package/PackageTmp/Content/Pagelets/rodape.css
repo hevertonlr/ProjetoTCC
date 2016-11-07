@@ -1,0 +1,114 @@
+﻿/*RODAPE*/
+.conteudoRodape {
+    width:1000px;
+    height:125px; 
+    overflow:hidden;
+}
+.logorodape {
+    width:178px;
+    height:85px;
+    background:url(../../Images/logo_rodape.png) no-repeat center;
+    margin-right:10px;
+    margin-top:-40px;
+    cursor:pointer;
+}
+.tpRodape {
+    height:58px;
+    padding-top:17px;
+}
+    .tpRodape table {
+        width:100%;
+    }
+.tpRodape ul li{
+    float:left;
+    height:20px;
+    margin-top:40px;
+}
+    .tpRodape ul li a {
+        height:25px;
+        margin-bottom:-40px;
+        font-size:13px;
+        color:#222222;
+        font-weight:bold;
+        text-decoration:none;
+        -webkit-transition: all 0.5s;
+	    -moz-transition:    all 0.5s;
+        -ms-transition:     all 0.5s;
+	    -o-transition:      all 0.5s;
+        transition:         all 0.5s;
+    }
+        .tpRodape ul li a:hover {
+            color:#3B5895;
+        }
+    .tpRodape ul li.divisor {
+        padding-left:10px;
+        padding-right:10px;
+        color:#222222;
+        padding-top:1px;
+    }
+
+.rpSocial {
+    width:170px;
+    float:right;
+}
+
+.icoyoutube,
+.icogplus,
+.icotwitter,
+.icofacebook{
+    width:32px;
+    height:32px;
+    background:url(../../Images/iconessociais.png) no-repeat;
+    margin-right:2.5px;
+    margin-left:2.5px;
+    margin-top:-20px;
+    cursor:pointer;
+}
+.icoyoutube span,
+.icogplus span,
+.icotwitter span,
+.icofacebook span{
+    width:32px;
+    height:32px;
+    background:url(../../Images/iconessociais.png) no-repeat;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+    -ms-transition:     opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+    transition:         opacity 0.5s;
+}
+
+.icoyoutube {background-position:0 0;}
+.icogplus {background-position:-34px 0;}
+.icotwitter {background-position:-68px 0;}
+.icofacebook {background-position:-102px 0;}
+
+.icoyoutube span {background-position:0 -32px;}
+.icogplus span {background-position:-34px -32px;}
+.icotwitter span {background-position:-68px -32px;}
+.icofacebook span {background-position:-102px -32px;}
+
+.icoyoutube:hover span {opacity: 1;}
+.icogplus:hover span {opacity: 1;}
+.icotwitter:hover span {opacity: 1;}
+.icofacebook:hover span {opacity: 1;}
+
+/*
+.icoyoutube:hover {background-position:0 -32px;}
+.icogplus:hover {background-position:-34px -32px;}
+.icotwitter:hover {background-position:-68px -32px;}
+.icofacebook:hover {background-position:-102px -32px;}
+*/
+
+.btRodape {
+    border-top:2px #DDDDDD groove;
+    height:37px;
+    width:980px;
+    padding-top:10px;
+}
+    .btRodape .copyright {
+        font-family: 'MavenProBold';
+        /*font-weight:bold;*/
+    }

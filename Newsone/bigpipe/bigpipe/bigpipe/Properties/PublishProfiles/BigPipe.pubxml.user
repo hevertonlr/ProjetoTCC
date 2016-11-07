@@ -1,0 +1,1570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAh85rqA8rD0+tPuMekECZGAAAAAACAAAAAAAQZgAAAAEAACAAAAACa9ODdUmhXr2uR/rhOqM5wn6cndEyq05SLbE5YQ6LNAAAAAAOgAAAAAIAACAAAAD7HqwUe0nVKajp9CLK93RmCOZc0BuGwpuEcf0dMZotTiAAAACqzELPha+rnohz9sRe9BrHTxVOIypCsfP1WLCAFQ5DD0AAAADeRqo8y959al61gyB9MoC5zFO/emPPqy655DmbOMqgIBCm7713ASBeij/c7w6dKGrd6aIasGjevktBQgzigcEj</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>10/21/2013 10:31:19</publishTime>
+    </File>
+    <File Include="bin/bigpipe.dll">
+      <publishTime>11/28/2013 02:07:35</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/21/2013 10:30:59</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>10/21/2013 10:31:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>10/21/2013 10:31:16</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>06/20/2013 00:35:04</publishTime>
+    </File>
+    <File Include="bin/MySql.Web.dll">
+      <publishTime>06/20/2013 00:35:06</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/21/2013 10:31:14</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>10/21/2013 10:31:16</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>10/21/2013 10:31:16</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>10/21/2013 10:31:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>10/21/2013 10:31:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>10/21/2013 10:31:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>10/21/2013 10:31:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>10/21/2013 10:31:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>10/21/2013 10:31:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>10/21/2013 10:31:15</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>10/21/2013 10:31:15</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>10/21/2013 10:31:15</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>10/21/2013 10:31:15</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>10/21/2013 10:31:19</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/CustomScrollbar/jquery.mCustomScrollbar.css">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/Flexslider/flexfotos.css">
+      <publishTime>11/28/2013 01:54:06</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/Flexslider/flexslider.css">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/Flexslider/fonts/flexslider-icon.eot">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/Flexslider/fonts/flexslider-icon.svg">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/Flexslider/fonts/flexslider-icon.ttf">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/Flexslider/fonts/flexslider-icon.woff">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/Flexslider/images/bg_play_pause.png">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/Flexslider/indgaleria.css">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/WowSlider/images/arrows.png">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/WowSlider/images/bullet.png">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/WowSlider/images/fullscreen.png">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/WowSlider/images/pause.png">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/WowSlider/images/play.png">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/WowSlider/images/triangle.png">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Bibliotecas/WowSlider/style.css">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/estilo.css">
+      <publishTime>10/26/2013 22:24:18</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Black/maven_pro_black-webfont.eot">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Black/maven_pro_black-webfont.svg">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Black/maven_pro_black-webfont.ttf">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Black/maven_pro_black-webfont.woff">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Bold/maven_pro_bold-webfont.eot">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Bold/maven_pro_bold-webfont.svg">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Bold/maven_pro_bold-webfont.ttf">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Bold/maven_pro_bold-webfont.woff">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Medium/maven_pro_medium-webfont.eot">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Medium/maven_pro_medium-webfont.svg">
+      <publishTime>10/22/2013 20:03:27</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Medium/maven_pro_medium-webfont.ttf">
+      <publishTime>10/22/2013 20:03:27</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Medium/maven_pro_medium-webfont.woff">
+      <publishTime>10/22/2013 20:03:27</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Regular/maven_pro_regular-webfont.eot">
+      <publishTime>10/22/2013 20:03:27</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Regular/maven_pro_regular-webfont.svg">
+      <publishTime>10/22/2013 20:03:27</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Regular/maven_pro_regular-webfont.ttf">
+      <publishTime>10/22/2013 20:03:27</publishTime>
+    </File>
+    <File Include="Content/Fontes/MavenPro/Regular/maven_pro_regular-webfont.woff">
+      <publishTime>10/22/2013 20:03:27</publishTime>
+    </File>
+    <File Include="Content/galerias.css">
+      <publishTime>11/28/2013 01:28:36</publishTime>
+    </File>
+    <File Include="Content/index.css">
+      <publishTime>11/28/2013 02:37:44</publishTime>
+    </File>
+    <File Include="Content/noticias.css">
+      <publishTime>11/28/2013 01:28:36</publishTime>
+    </File>
+    <File Include="Content/Pagelets/menu.css">
+      <publishTime>10/22/2013 23:46:00</publishTime>
+    </File>
+    <File Include="Content/Pagelets/rodape.css">
+      <publishTime>10/22/2013 23:45:48</publishTime>
+    </File>
+    <File Include="Content/Pagelets/topo.css">
+      <publishTime>10/22/2013 23:45:27</publishTime>
+    </File>
+    <File Include="Content/Pie/PIE.htc">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Pie/PIE.js">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Pie/PIE.php">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Pie/PIE_uncompressed.htc">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Pie/PIE_uncompressed.js">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Pie2/PIE.htc">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Pie2/PIE.php">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Pie2/PIE_IE678.js">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Pie2/PIE_IE678_uncompressed.js">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Pie2/PIE_IE9.js">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Pie2/PIE_IE9_uncompressed.js">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/Pie2/PIE_uncompressed.htc">
+      <publishTime>10/22/2013 20:03:26</publishTime>
+    </File>
+    <File Include="Content/reset.css">
+      <publishTime>10/22/2013 20:03:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery-ui.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.accordion.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.all.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.autocomplete.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.base.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.button.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.core.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.datepicker.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.dialog.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.progressbar.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.resizable.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.selectable.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.slider.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.tabs.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.theme.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_222222_256x240.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_454545_256x240.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_888888_256x240.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery-ui.min.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.accordion.min.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.autocomplete.min.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.button.min.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.core.min.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.datepicker.min.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.dialog.min.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.progressbar.min.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.resizable.min.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.selectable.min.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.slider.min.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.tabs.min.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.theme.min.css">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Content/vergalerias.css">
+      <publishTime>11/28/2013 01:28:36</publishTime>
+    </File>
+    <File Include="Content/vernoticias.css">
+      <publishTime>11/28/2013 01:28:36</publishTime>
+    </File>
+    <File Include="Content/videos.css">
+      <publishTime>11/28/2013 01:28:36</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/21/2013 10:30:48</publishTime>
+    </File>
+    <File Include="Images/bg_rodape.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/bg_topo.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/cubes.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/Favicons/114.png">
+      <publishTime>10/22/2013 23:40:51</publishTime>
+    </File>
+    <File Include="Images/Favicons/144.png">
+      <publishTime>10/22/2013 23:40:51</publishTime>
+    </File>
+    <File Include="Images/Favicons/57.png">
+      <publishTime>10/22/2013 23:40:51</publishTime>
+    </File>
+    <File Include="Images/Favicons/72.png">
+      <publishTime>10/22/2013 23:40:51</publishTime>
+    </File>
+    <File Include="Images/Favicons/favicon.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/1.jpg">
+      <publishTime>10/26/2013 22:57:20</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/10_1.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/10_10.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/10_2.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/10_3.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/10_4.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/10_5.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/10_6.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/10_7.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/10_8.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/10_9.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/11_1.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/11_10.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/11_2.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/11_3.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/11_4.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/11_5.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/11_6.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/11_7.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/11_8.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/11_9.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/12_1.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/12_10.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/12_2.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/12_3.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/12_4.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/12_5.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/12_6.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/12_7.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/12_8.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/12_9.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/13_1.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/13_10.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/13_2.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/13_3.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/13_4.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/13_5.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/13_6.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/13_7.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/13_8.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/13_9.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/14_1.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/14_10.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/14_2.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/14_3.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/14_4.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/14_5.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/14_6.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/14_7.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/14_8.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/14_9.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/15_1.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/15_10.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/15_2.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/15_3.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/15_4.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/15_5.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/15_6.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/15_7.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/15_8.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/15_9.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/16_1.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/16_10.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/16_2.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/16_3.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/16_4.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/16_5.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/16_6.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/16_7.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/16_8.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/16_9.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/17_1.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/17_10.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/17_2.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/17_3.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/17_4.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/17_5.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/17_6.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/17_7.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/17_8.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/17_9.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/18_1.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/18_10.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/18_2.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/18_3.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/18_4.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/18_5.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/18_6.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/18_7.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/18_8.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/18_9.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/19_1.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/19_10.jpg">
+      <publishTime>10/31/2013 21:45:52</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/19_2.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/19_3.jpg">
+      <publishTime>10/31/2013 21:45:51</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/19_4.jpg">
+      <publishTime>10/31/2013 21:45:52</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/19_5.jpg">
+      <publishTime>10/31/2013 21:45:52</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/19_6.jpg">
+      <publishTime>10/31/2013 21:45:52</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/19_7.jpg">
+      <publishTime>10/31/2013 21:45:52</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/19_8.jpg">
+      <publishTime>10/31/2013 21:45:52</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/19_9.jpg">
+      <publishTime>10/31/2013 21:45:52</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/2.jpg">
+      <publishTime>10/26/2013 22:57:20</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/3.jpg">
+      <publishTime>10/26/2013 22:57:20</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/4.jpg">
+      <publishTime>10/26/2013 22:57:20</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/5.jpg">
+      <publishTime>10/26/2013 22:57:20</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/6.jpg">
+      <publishTime>10/26/2013 22:57:20</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/7.jpg">
+      <publishTime>10/26/2013 22:57:20</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/8.jpg">
+      <publishTime>11/28/2013 01:51:31</publishTime>
+    </File>
+    <File Include="Images/galeria/imagens/9.jpg">
+      <publishTime>10/26/2013 22:57:20</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/1.jpg">
+      <publishTime>10/26/2013 22:57:37</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/10_1.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/10_10.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/10_2.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/10_3.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/10_4.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/10_5.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/10_6.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/10_7.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/10_8.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/10_9.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/11_1.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/11_10.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/11_2.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/11_3.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/11_4.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/11_5.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/11_6.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/11_7.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/11_8.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/11_9.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/12_1.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/12_10.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/12_2.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/12_3.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/12_4.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/12_5.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/12_6.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/12_7.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/12_8.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/12_9.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/13_1.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/13_10.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/13_2.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/13_3.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/13_4.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/13_5.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/13_6.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/13_7.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/13_8.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/13_9.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/14_1.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/14_10.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/14_2.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/14_3.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/14_4.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/14_5.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/14_6.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/14_7.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/14_8.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/14_9.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/15_1.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/15_10.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/15_2.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/15_3.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/15_4.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/15_5.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/15_6.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/15_7.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/15_8.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/15_9.jpg">
+      <publishTime>10/31/2013 22:09:44</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/16_1.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/16_10.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/16_2.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/16_3.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/16_4.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/16_5.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/16_6.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/16_7.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/16_8.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/16_9.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/17_1.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/17_10.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/17_2.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/17_3.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/17_4.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/17_5.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/17_6.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/17_7.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/17_8.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/17_9.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/18_1.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/18_10.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/18_2.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/18_3.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/18_4.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/18_5.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/18_6.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/18_7.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/18_8.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/18_9.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/19_1.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/19_10.jpg">
+      <publishTime>10/31/2013 22:09:46</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/19_2.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/19_3.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/19_4.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/19_5.jpg">
+      <publishTime>10/31/2013 22:09:45</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/19_6.jpg">
+      <publishTime>10/31/2013 22:09:46</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/19_7.jpg">
+      <publishTime>10/31/2013 22:09:46</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/19_8.jpg">
+      <publishTime>10/31/2013 22:09:46</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/19_9.jpg">
+      <publishTime>10/31/2013 22:09:46</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/2.jpg">
+      <publishTime>10/26/2013 22:57:37</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/3.jpg">
+      <publishTime>10/26/2013 22:57:37</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/4.jpg">
+      <publishTime>10/26/2013 22:57:37</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/5.jpg">
+      <publishTime>10/26/2013 22:57:37</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/6.jpg">
+      <publishTime>10/26/2013 22:57:37</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/7.jpg">
+      <publishTime>10/26/2013 22:57:37</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/8.jpg">
+      <publishTime>10/26/2013 22:57:37</publishTime>
+    </File>
+    <File Include="Images/galeria/miniaturas/9.jpg">
+      <publishTime>10/26/2013 22:57:37</publishTime>
+    </File>
+    <File Include="Images/icoclock.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/icodata.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/iconessociais.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/icopesq.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/icovisual.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/lb_icons.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/logo_rodape.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/logo_topo.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/maxprev.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/minprev.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/public1/1.jpg">
+      <publishTime>11/28/2013 01:52:06</publishTime>
+    </File>
+    <File Include="Images/public1/2.jpg">
+      <publishTime>11/28/2013 01:52:06</publishTime>
+    </File>
+    <File Include="Images/public1/3.jpg">
+      <publishTime>11/28/2013 01:52:06</publishTime>
+    </File>
+    <File Include="Images/public1/4.jpg">
+      <publishTime>11/28/2013 01:52:06</publishTime>
+    </File>
+    <File Include="Images/public1/5.jpg">
+      <publishTime>11/28/2013 01:52:07</publishTime>
+    </File>
+    <File Include="Images/public2/1.jpg">
+      <publishTime>11/28/2013 01:52:17</publishTime>
+    </File>
+    <File Include="Images/public2/2.jpg">
+      <publishTime>11/28/2013 01:52:17</publishTime>
+    </File>
+    <File Include="Images/public2/3.jpg">
+      <publishTime>11/28/2013 01:52:17</publishTime>
+    </File>
+    <File Include="Images/public2/4.jpg">
+      <publishTime>11/28/2013 01:52:17</publishTime>
+    </File>
+    <File Include="Images/public2/5.jpg">
+      <publishTime>11/28/2013 01:52:17</publishTime>
+    </File>
+    <File Include="Images/sprite_icones_medio-grande_pequeno.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/sprite_icones_transparent.png">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/wowslider/images/1.jpg">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/wowslider/images/2.jpg">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/wowslider/images/3.jpg">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/wowslider/images/4.jpg">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/wowslider/images/5.jpg">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/wowslider/thumbs/1.jpg">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/wowslider/thumbs/2.jpg">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/wowslider/thumbs/3.jpg">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/wowslider/thumbs/4.jpg">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="Images/wowslider/thumbs/5.jpg">
+      <publishTime>10/22/2013 23:40:52</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/21/2013 10:31:19</publishTime>
+    </File>
+    <File Include="Scripts/BigPipe/BigPipe.js">
+      <publishTime>10/22/2013 19:27:10</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/bower.json">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/colorbox.ai">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/colorbox.jquery.json">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/content/ajax.html">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/content/daisy%402x.jpg">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/content/daisy.jpg">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/content/homer.jpg">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/content/marylou.jpg">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/content/ohoopee1.jpg">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/content/ohoopee2.jpg">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/content/ohoopee3.jpg">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/content/Thumbs.db">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example1/colorbox.css">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example1/images/border.png">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example1/images/controls.png">
+      <publishTime>11/28/2013 01:50:07</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example1/images/loading.gif">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example1/images/loading_background.png">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example1/images/overlay.png">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example1/index.html">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example2/colorbox.css">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example2/images/controls.png">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example2/images/loading.gif">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example2/index.html">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example3/colorbox.css">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example3/images/controls.png">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example3/images/loading.gif">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example3/index.html">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example4/colorbox.css">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example4/images/border1.png">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example4/images/border2.png">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example4/images/loading.gif">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example4/index.html">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example5/colorbox.css">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example5/images/border.png">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example5/images/controls.png">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example5/images/loading.gif">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example5/images/loading_background.png">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/example5/index.html">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-ar.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-bg.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-ca.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-cs.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-da.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-de.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-es.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-et.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-fa.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-fi.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-fr.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-gl.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-he.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-hr.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-hu.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-id.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-it.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-ja.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-kr.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-lv.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-nl.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-no.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-pl.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-pt-br.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-ro.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-ru.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-si.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-sk.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-sr.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-sv.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-tr.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-uk.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-zh-CN.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/i18n/jquery.colorbox-zh-TW.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/jquery.colorbox-min.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/jquery.colorbox.js">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/Colorbox/README.md">
+      <publishTime>11/28/2013 01:50:08</publishTime>
+    </File>
+    <File Include="Scripts/CustomScrollbar/jquery.mCustomScrollbar.js">
+      <publishTime>10/23/2013 00:03:55</publishTime>
+    </File>
+    <File Include="Scripts/CustomScrollbar/jquery.mCustomScrollbar.min.js">
+      <publishTime>10/23/2013 00:03:55</publishTime>
+    </File>
+    <File Include="Scripts/CustomScrollbar/jquery.mousewheel.js">
+      <publishTime>10/23/2013 00:03:55</publishTime>
+    </File>
+    <File Include="Scripts/CustomScrollbar/jquery.mousewheel.min.js">
+      <publishTime>10/23/2013 00:03:55</publishTime>
+    </File>
+    <File Include="Scripts/Facebook/facebook.js">
+      <publishTime>10/23/2013 00:03:55</publishTime>
+    </File>
+    <File Include="Scripts/Flexslider/jquery.flexslider-min.js">
+      <publishTime>10/23/2013 00:03:55</publishTime>
+    </File>
+    <File Include="Scripts/Flexslider/jquery.flexslider.js">
+      <publishTime>10/23/2013 00:03:55</publishTime>
+    </File>
+    <File Include="Scripts/Flexslider/jquery.mousewheel.js">
+      <publishTime>10/23/2013 00:03:55</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.8.2.js">
+      <publishTime>10/21/2013 10:31:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.8.2.min.js">
+      <publishTime>10/21/2013 10:31:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.0.js">
+      <publishTime>10/25/2013 01:51:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.0.min.js">
+      <publishTime>10/25/2013 01:50:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.24.js">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.24.min.js">
+      <publishTime>10/21/2013 10:31:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>10/21/2013 10:31:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>10/21/2013 10:31:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>10/21/2013 10:31:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>10/21/2013 10:31:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>10/21/2013 10:31:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>10/21/2013 10:31:13</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.2.0.debug.js">
+      <publishTime>10/21/2013 10:31:19</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.2.0.js">
+      <publishTime>10/21/2013 10:31:19</publishTime>
+    </File>
+    <File Include="Scripts/Mercado/mercado.js">
+      <publishTime>10/26/2013 21:24:01</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>10/21/2013 10:31:14</publishTime>
+    </File>
+    <File Include="Scripts/newsone/application.js">
+      <publishTime>10/26/2013 21:27:47</publishTime>
+    </File>
+    <File Include="Scripts/Previsao/geoloc_prev.js">
+      <publishTime>11/02/2013 12:11:42</publishTime>
+    </File>
+    <File Include="Scripts/WowSlider/script.js">
+      <publishTime>10/23/2013 00:03:55</publishTime>
+    </File>
+    <File Include="Scripts/WowSlider/wowslider.js">
+      <publishTime>10/25/2013 02:15:10</publishTime>
+    </File>
+    <File Include="Scripts/Youtube/youtube.js">
+      <publishTime>10/25/2013 02:42:48</publishTime>
+    </File>
+    <File Include="Scripts/Youtube/youtube2.js">
+      <publishTime>11/28/2013 01:50:28</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>10/21/2013 10:31:14</publishTime>
+    </File>
+    <File Include="Views/Home/Galerias.aspx">
+      <publishTime>11/28/2013 03:03:47</publishTime>
+    </File>
+    <File Include="Views/Home/Index.aspx">
+      <publishTime>11/05/2013 00:51:21</publishTime>
+    </File>
+    <File Include="Views/Home/IndexPagelets/bannersPagelet.aspx">
+      <publishTime>10/23/2013 00:22:42</publishTime>
+    </File>
+    <File Include="Views/Home/IndexPagelets/galeriasPagelet.aspx">
+      <publishTime>11/28/2013 02:46:50</publishTime>
+    </File>
+    <File Include="Views/Home/IndexPagelets/maislidasPagelet.aspx">
+      <publishTime>11/28/2013 02:36:29</publishTime>
+    </File>
+    <File Include="Views/Home/IndexPagelets/mercadoPagelet.aspx">
+      <publishTime>11/02/2013 12:35:17</publishTime>
+    </File>
+    <File Include="Views/Home/IndexPagelets/noticiasPagelet.aspx">
+      <publishTime>11/28/2013 03:03:02</publishTime>
+    </File>
+    <File Include="Views/Home/IndexPagelets/previsaoPagelet.aspx">
+      <publishTime>10/26/2013 21:43:28</publishTime>
+    </File>
+    <File Include="Views/Home/IndexPagelets/publicidade1Pagelet.aspx">
+      <publishTime>10/26/2013 20:54:18</publishTime>
+    </File>
+    <File Include="Views/Home/IndexPagelets/publicidade2Pagelet.aspx">
+      <publishTime>10/26/2013 21:03:59</publishTime>
+    </File>
+    <File Include="Views/Home/IndexPagelets/videosPagelet.aspx">
+      <publishTime>11/28/2013 02:46:18</publishTime>
+    </File>
+    <File Include="Views/Home/MasterPagelets/menuPagelet.aspx">
+      <publishTime>11/28/2013 02:34:08</publishTime>
+    </File>
+    <File Include="Views/Home/MasterPagelets/rodapePagelet.aspx">
+      <publishTime>11/28/2013 02:31:39</publishTime>
+    </File>
+    <File Include="Views/Home/MasterPagelets/topoPagelet.aspx">
+      <publishTime>11/28/2013 03:05:06</publishTime>
+    </File>
+    <File Include="Views/Home/Noticias.aspx">
+      <publishTime>11/28/2013 03:01:24</publishTime>
+    </File>
+    <File Include="Views/Home/VerGalerias.aspx">
+      <publishTime>11/28/2013 01:46:22</publishTime>
+    </File>
+    <File Include="Views/Home/VerNoticias.aspx">
+      <publishTime>11/28/2013 02:05:04</publishTime>
+    </File>
+    <File Include="Views/Home/Videos.aspx">
+      <publishTime>11/28/2013 01:46:21</publishTime>
+    </File>
+    <File Include="Views/InicialMasterPage.Master">
+      <publishTime>11/29/2013 01:06:26</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.aspx">
+      <publishTime>10/21/2013 10:30:48</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>10/21/2013 10:30:48</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/26/2013 22:04:06</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

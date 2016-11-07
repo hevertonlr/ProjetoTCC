@@ -1,0 +1,97 @@
+<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<%@ Import Namespace="bigpipe.Helpers" %>
+<%@ Import Namespace="bigpipe.Models" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>News One</title>
+    
+    <script type="text/javascript" src="<%= Url.Content("~/Scripts/jquery-1.8.2.min.js") %>"></script>
+    <script type="text/javascript" src="<%= Url.Content("~/Scripts/modernizr-2.6.2.js") %>"></script>
+    <link href="<%= Url.Content("~/Content/reset.css") %>" rel="stylesheet" />
+    <link href="<%= Url.Content("~/Content/estilo.css") %>" rel="stylesheet" />
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<%= Url.Content("~/Images/Favicons/144.png") %>"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<%= Url.Content("~/Images/Favicons/114.png") %>"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<%= Url.Content("~/Images/Favicons/72.png") %>"/>
+    <link rel="apple-touch-icon-precomposed" href="<%= Url.Content("~/Images/Favicons/57.png") %>"/>
+    <link rel="shortcut icon" href="<%= Url.Content("~/Images/Favicons/favicon.png") %>"/>
+    <script type="text/javascript" src="<%= Url.Content("~/Scripts/BigPipe/BigPipe.js") %>"></script>
+
+   <script type="text/javascript">
+       $(document).ready(function () {
+           horas();
+           Dataatual();
+       });
+       function horas() {
+           var now = new Date();
+           var hours = now.getHours();
+           var minutes = now.getMinutes();
+           var seconds = now.getSeconds()
+           if (hours <= 9) hours = "0" + hours;
+           if (minutes <= 9) minutes = "0" + minutes;
+           if (seconds <= 9) seconds = "0" + seconds;
+           var cdate = hours + ":" + minutes // + ":" + seconds
+           relogio.innerHTML = cdate;
+           setTimeout("horas()", 1000);
+       }
+       function Dataatual() {
+           meses = new Array("Janeiro", "Fevereiro", "Mar&ccedil;o", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro");
+           var data = new Date();
+           var dia = data.getDate();
+           var mes = data.getMonth();
+           var ano = data.getFullYear();
+           dataatual.innerHTML = dia + " de " + meses[mes] + " de " + ano;
+       }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .menuTopo {
+       filter: none;
+    }
+  </style>
+<![endif]-->    
+</head>
+<body>
+    <% HttpRequest req = HttpContext.Current.Request; %>
+    <asp:ContentPlaceHolder ID="firstitembody" runat="server">
+    </asp:ContentPlaceHolder>
+    <div id="corpo">
+            <% Html.RegisterPagelet(
+                new Pagelet("topo", "align=\"center\"",
+		            () => Html.RenderActionToString(req, "home", "topoPagelet"),
+                    new[] { Url.Content("~/Content/Pagelets/topo.css") }
+            )); %> 
+        
+            <% Html.RegisterPagelet(
+                new Pagelet("menu", "align=\"center\"",
+		            () => Html.RenderActionToString(req, "home", "menuPagelet"),
+                    new[] { Url.Content("~/Content/Pagelets/menu.css") }
+            )); %> 
+        <div id="conteudo" align="center">
+            <div class="bgConteudo" align="center">
+                <div class="corpoConteudo" align="left">
+                    <div class="esquerda td"><asp:ContentPlaceHolder ID="contentLeft" runat="server"></asp:ContentPlaceHolder></div>
+                    <div class="direita td"><asp:ContentPlaceHolder ID="contentRight" runat="server"></asp:ContentPlaceHolder></div>
+                    <div class="tr"></div>
+                </div>
+            </div>
+        </div>
+        <% Html.RegisterPagelet(
+            new Pagelet("rodape", "align=\"center\"",
+		        () => Html.RenderActionToString(req, "home", "rodapePagelet"),
+                new[] { Url.Content("~/Content/Pagelets/rodape.css") }
+        )); %> 
+    
+    </div>
+    <asp:ContentPlaceHolder ID="lastitembody" runat="server">
+    </asp:ContentPlaceHolder>
+    <% Response.Flush(); %>
+	<% Html.ExecutePagelets(); %>
+    
+</body>
+</html>

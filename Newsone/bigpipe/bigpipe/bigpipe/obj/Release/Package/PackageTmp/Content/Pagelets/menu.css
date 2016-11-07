@@ -1,0 +1,49 @@
+﻿/*MENU*/
+.conteudoMenu {
+    width:1000px;
+}
+
+.mnhomeli {
+    width:33px;
+    height:33px !important;
+    background-color: #222222;
+    padding:8px 7px 7px 8px;
+    cursor:pointer;
+    margin-right:10px;
+}
+.mnhomeico {
+    width:33px;
+    height:33px;
+    background:url(../../Images/lb_icons.png) no-repeat -12px -81px;
+}
+
+.conteudoMenu ul li {
+    float:left;
+    padding-left:1%;
+    padding-right:1%;
+    -webkit-transition: all 0.5s;
+    -moz-transition:    all 0.5s;
+    -ms-transition:     all 0.5s;
+    -o-transition:      all 0.5s;
+    transition:         all 0.5s;
+    height:48px;
+}
+    .conteudoMenu ul li:hover {
+        background-color:#222222;
+    }
+        .conteudoMenu ul li:hover a {
+            color:#fff;
+        }
+
+    .conteudoMenu ul li a {
+        font-size:18px;
+        color:#222222;
+        font-family: 'MavenProBold';
+        font-weight:600;
+        text-decoration:none;
+        line-height:50px;
+        padding-top:18px;
+        padding-bottom:14px;
+        height:50px;
+        
+    }

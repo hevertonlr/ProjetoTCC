@@ -1,0 +1,455 @@
+﻿@font-face {
+    font-family: 'MavenProBlack';
+    src: url('../Content/Fontes/MavenPro/Black/maven_pro_black-webfont.eot');
+    src: url('../Content/Fontes/MavenPro/Black/maven_pro_black-webfont.eot?#iefix') format('eot'),
+         url('../Content/Fontes/MavenPro/Black/maven_pro_black-webfont.woff') format('woff'),
+         url('../Content/Fontes/MavenPro/Black/maven_pro_black-webfont.ttf') format('truetype'),
+         url('../Content/Fontes/MavenPro/Black/maven_pro_black-webfont.svg#webfontXhB2DgBK') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MavenProBold';
+    src: url('../Content/Fontes/MavenPro/Bold/maven_pro_bold-webfont.eot');
+    src: url('../Content/Fontes/MavenPro/Bold/maven_pro_bold-webfont.eot?#iefix') format('eot'),
+         url('../Content/Fontes/MavenPro/Bold/maven_pro_bold-webfont.woff') format('woff'),
+         url('../Content/Fontes/MavenPro/Bold/maven_pro_bold-webfont.ttf') format('truetype'),
+         url('../Content/Fontes/MavenPro/Bold/maven_pro_bold-webfont.svg#webfontNOU7iUTL') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MavenProMedium';
+    src: url('../Content/Fontes/MavenPro/Medium/maven_pro_medium-webfont.eot');
+    src: url('../Content/Fontes/MavenPro/Medium/maven_pro_medium-webfont.eot?#iefix') format('eot'),
+         url('../Content/Fontes/MavenPro/Medium/maven_pro_medium-webfont.woff') format('woff'),
+         url('../Content/Fontes/MavenPro/Medium/maven_pro_medium-webfont.ttf') format('truetype'),
+         url('../Content/Fontes/MavenPro/Medium/maven_pro_medium-webfont.svg#webfontNj5iy4Dl') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MavenProRegular';
+    src: url('../Content/Fontes/MavenPro/Regular/maven_pro_regular-webfont.eot');
+    src: url('../Content/Fontes/MavenPro/Regular/maven_pro_regular-webfont.eot?#iefix') format('eot'),
+         url('../Content/Fontes/MavenPro/Regular/maven_pro_regular-webfont.woff') format('woff'),
+         url('../Content/Fontes/MavenPro/Regular/maven_pro_regular-webfont.ttf') format('truetype'),
+         url('../Content/Fontes/MavenPro/Regular/maven_pro_regular-webfont.svg#webfontOM8fITNz') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   background-color:#DDDDDD;
+   background-image:url(../Images/cubes.png);
+   background-repeat:repeat;
+   font-family: 'MavenProRegular';
+   font-size:12px;
+}
+
+.tr {clear:both;}
+.td {float:left;}
+
+/*CLEARFIX*/
+.clearfix:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.clearfix {display: inline-block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
+/*--------*/
+
+#corpo {
+   min-height:100%;
+   position:relative;
+   min-width:1000px;
+}
+#topo {
+   height:172px;
+   background:url(../Images/bg_topo.png) no-repeat center #fff;
+   min-width:1000px;
+}
+#menu {
+    height:48px;
+    background-color:#fff;
+    border-bottom:5px #222222 solid;
+    -moz-box-shadow: 0 0 7px #AAAAAA;
+    -webkit-box-shadow: 0 0 7px #AAAAAA;
+    box-shadow: 0 0 7px #AAAAAA;
+    min-width:1000px;
+}
+#conteudo {
+   padding-bottom:135px;   /* Mesma Altura do Rodapé */ /*altura + bordas*/
+   height:100%;
+   min-width:1000px;
+}
+#rodape {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:125px;   /* Mesma Altura do Rodapé */
+   background:#fff url(../Images/bg_rodape.png);
+   border-bottom:5px #3A589B solid;
+   border-top:5px #222222 solid;
+   min-width:1000px;
+}
+/*telas menores* /
+@media screen and (max-width:1000px) {
+    html,
+    body {
+        zoom:95%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    html,
+    body {
+        zoom:90%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    html,
+    body {
+        zoom:88%;
+    }
+}*/
+
+/*TOPO*/
+.conteudoTopo {
+    width:1000px;
+}
+.menuTopo {
+    background-color:#4D70B9;
+    width:100%;
+    height:36px;
+    -moz-box-shadow: 0 0 5px #AAAAAA;
+    -webkit-box-shadow: 0 0 5px #AAAAAA;
+    box-shadow: 0 0 5px #AAAAAA;
+    background: #4d70b9;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRkNzBiOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzYjU4OTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #4d70b9 0%, #3b5895 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4d70b9), color-stop(100%,#3b5895));
+    background: -webkit-linear-gradient(top,  #4d70b9 0%,#3b5895 100%);
+    background: -o-linear-gradient(top,  #4d70b9 0%,#3b5895 100%);
+    background: -ms-linear-gradient(top,  #4d70b9 0%,#3b5895 100%);
+    background: linear-gradient(to bottom,  #4d70b9 0%,#3b5895 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d70b9', endColorstr='#3b5895',GradientType=0 );
+
+}
+    .menuTopo .conteudomenuTopo {
+        width:1000px;
+    }
+    .menuTopo ul li {
+        float:left;
+        padding-left:1%;
+        padding-right:1%;
+        height:36px;
+        border-left:#fff 1px solid;
+        -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(rgba(58, 88, 149, 1)), to(rgba(255, 255, 255, 1))) 1 100%;
+        -webkit-border-image: -webkit-linear-gradient(bottom, rgba(58, 88, 149, 1), rgba(255, 255, 255, 1)) 1 100%;
+        -o-border-image: -o-linear-gradient(bottom, rgba(58, 88, 149, 1), rgba(255, 255, 255, 1)) 1 100%;
+        -moz-border-image: -moz-linear-gradient(bottom, rgba(58, 88, 149, 1), rgba(255, 255, 255, 1)) 1 100%;
+        -webkit-transition: all 0.5s;
+	    -moz-transition:    all 0.5s;
+        -ms-transition:     all 0.5s;
+	    -o-transition:      all 0.5s;
+        transition:         all 0.5s;
+    }
+        .menuTopo ul li:last-child {
+            border-right:#fff 1px solid;
+        }
+    .menuTopo ul li:hover {
+        background: #3b5895;
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNiNTg5NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0ZDcwYjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background: -moz-linear-gradient(top,  #3b5895 0%, #4d70b9 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b5895), color-stop(100%,#4d70b9));
+        background: -webkit-linear-gradient(top,  #3b5895 0%,#4d70b9 100%);
+        background: -o-linear-gradient(top,  #3b5895 0%,#4d70b9 100%);
+        background: -ms-linear-gradient(top,  #3b5895 0%,#4d70b9 100%);
+        background: linear-gradient(to bottom,  #3b5895 0%,#4d70b9 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b5895', endColorstr='#4d70b9',GradientType=0 );
+    }
+        .menuTopo ul li a {
+            text-decoration:none;
+            color: #fff;
+            font-size: 15px;
+            text-transform: uppercase;
+            padding-top: 14px;
+            padding-bottom: 10px;
+            line-height: 36px;
+            text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.65);
+            -webkit-text-shadow:3px 2px 3px rgba(0, 0, 0, 0.65);
+            filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=315,strength=2);
+            font-family: 'MavenProBold';
+            font-weight: 600;
+        }
+
+.logoTopo {
+    background:url(../Images/logo_topo.png) no-repeat center;
+    width:232px;
+    height:110px;
+    cursor:pointer;
+    margin-top:12px;
+    float:left;
+}
+
+.pesqTopo {
+    width:350px;
+    float:right;
+    height:115px;
+    padding-top:20px;
+}
+    .pesqTopo .clockTopo {
+        font-size:16px;
+        color:#1A1A1A;
+        font-weight:bold;
+        margin-bottom:10px;
+        background:url(../Images/icoclock.png) left no-repeat; 
+        width:80px;
+        height:20px;
+        padding-top:5px;
+        padding-right:5px;
+    }
+    .pesqTopo .dataTopo {
+        font-size:13px;
+        color:#1A1A1A;
+        font-weight:bold;
+        margin-bottom:10px;
+    }
+    .pesqTopo .campopesqTopo {
+        width:264px;
+        height:30px;
+    }
+        .pesqTopo .campopesqTopo .ipPesqTopo {
+            width:223px;
+            border:none;
+            border-bottom:1px #CCCCCC solid;
+            border-left:1px #CCCCCC solid;
+            border-top:3px #3B5895 solid;
+            border-top-left-radius:3px;
+            border-bottom-left-radius:3px;
+            background-color:#fff;
+            height:25px;
+            padding-left:5px;
+            padding-right:5px;
+            float:left;
+            display:block;
+            outline:none;
+            font-family: 'MavenProRegular';
+        }
+        .pesqTopo .campopesqTopo .btnPesqTopo {
+            cursor:pointer;
+            height:30px;
+            width:30px;
+            border:none;
+            float:right;
+            display:block;
+            outline:none;
+            border-top-right-radius:3px;
+            border-bottom-right-radius:3px;
+            background: url(../Images/icopesq.png) #3B5895 center no-repeat;
+        }
+
+/*MENU*/
+.conteudoMenu {
+    width:1000px;
+}
+
+.mnhomeli {
+    width:33px;
+    height:33px !important;
+    background-color: #222222;
+    padding:8px 7px 7px 8px;
+    cursor:pointer;
+    margin-right:10px;
+}
+.mnhomeico {
+    width:33px;
+    height:33px;
+    background:url(../Images/lb_icons.png) no-repeat -12px -81px;
+}
+
+.conteudoMenu ul li {
+    float:left;
+    padding-left:1%;
+    padding-right:1%;
+    -webkit-transition: all 0.5s;
+    -moz-transition:    all 0.5s;
+    -ms-transition:     all 0.5s;
+    -o-transition:      all 0.5s;
+    transition:         all 0.5s;
+    height:48px;
+}
+    .conteudoMenu ul li:hover {
+        background-color:#222222;
+    }
+        .conteudoMenu ul li:hover a {
+            color:#fff;
+        }
+
+    .conteudoMenu ul li a {
+        font-size:18px;
+        color:#222222;
+        font-family: 'MavenProBold';
+        font-weight:600;
+        text-decoration:none;
+        line-height:50px;
+        padding-top:18px;
+        padding-bottom:14px;
+        height:50px;
+        
+    }
+
+/*CONTEUDO*/
+.bgConteudo {
+    background-color:#ffffff;
+    max-width:100%;
+    width:1050px;
+    box-shadow: -5px 0px 12px -5px #333333, 5px 0px 12px -5px #333333;
+    -webkit-box-shadow: -5px 0px 12px -5px #333333, 5px 0px 12px -5px #333333;
+    -moz-box-shadow: -5px 0px 12px -5px #333333, 5px 0px 12px -5px #333333;
+    margin-left:-25px;
+    margin-right:-25px;
+    height:100%;
+    
+}
+.corpoConteudo {
+    width:1000px;
+    padding-top:25px;
+    padding-bottom:25px;   
+}
+.esquerda {
+    width:672px;
+    height:100%;
+}
+.direita {
+    width:300px;
+    height:100%;
+    margin-left:28px;
+}
+
+/*RODAPE*/
+.conteudoRodape {
+    width:1000px;
+    height:125px; 
+    overflow:hidden;
+}
+.logorodape {
+    width:178px;
+    height:85px;
+    background:url(../Images/logo_rodape.png) no-repeat center;
+    margin-right:10px;
+    margin-top:-40px;
+    cursor:pointer;
+}
+.tpRodape {
+    height:58px;
+    padding-top:17px;
+}
+    .tpRodape table {
+        width:100%;
+    }
+.tpRodape ul li{
+    float:left;
+    height:20px;
+    margin-top:40px;
+}
+    .tpRodape ul li a {
+        height:25px;
+        margin-bottom:-40px;
+        font-size:13px;
+        color:#222222;
+        font-weight:bold;
+        text-decoration:none;
+        -webkit-transition: all 0.5s;
+	    -moz-transition:    all 0.5s;
+        -ms-transition:     all 0.5s;
+	    -o-transition:      all 0.5s;
+        transition:         all 0.5s;
+    }
+        .tpRodape ul li a:hover {
+            color:#3B5895;
+        }
+    .tpRodape ul li.divisor {
+        padding-left:10px;
+        padding-right:10px;
+        color:#222222;
+        padding-top:1px;
+    }
+
+.rpSocial {
+    width:170px;
+    float:right;
+}
+
+.icoyoutube,
+.icogplus,
+.icotwitter,
+.icofacebook{
+    width:32px;
+    height:32px;
+    background:url(../Images/iconessociais.png) no-repeat;
+    margin-right:2.5px;
+    margin-left:2.5px;
+    margin-top:-20px;
+    cursor:pointer;
+}
+.icoyoutube span,
+.icogplus span,
+.icotwitter span,
+.icofacebook span{
+    width:32px;
+    height:32px;
+    background:url(../Images/iconessociais.png) no-repeat;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+    -ms-transition:     opacity 0.5s;
+	-o-transition:      opacity 0.5s;
+    transition:         opacity 0.5s;
+}
+
+.icoyoutube {background-position:0 0;}
+.icogplus {background-position:-34px 0;}
+.icotwitter {background-position:-68px 0;}
+.icofacebook {background-position:-102px 0;}
+
+.icoyoutube span {background-position:0 -32px;}
+.icogplus span {background-position:-34px -32px;}
+.icotwitter span {background-position:-68px -32px;}
+.icofacebook span {background-position:-102px -32px;}
+
+.icoyoutube:hover span {opacity: 1;}
+.icogplus:hover span {opacity: 1;}
+.icotwitter:hover span {opacity: 1;}
+.icofacebook:hover span {opacity: 1;}
+
+/*
+.icoyoutube:hover {background-position:0 -32px;}
+.icogplus:hover {background-position:-34px -32px;}
+.icotwitter:hover {background-position:-68px -32px;}
+.icofacebook:hover {background-position:-102px -32px;}
+*/
+
+.btRodape {
+    border-top:2px #DDDDDD groove;
+    height:37px;
+    width:980px;
+    padding-top:10px;
+}
+    .btRodape .copyright {
+        font-family: 'MavenProBold';
+        /*font-weight:bold;*/
+    }
